@@ -50,7 +50,7 @@ CREATE TABLE tb_endereco (
 
 CREATE TABLE tb_plano_tratamento (
   id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
-  descricao VARCHAR(500) NOT NULL,
+  descricao VARCHAR(4000) NOT NULL,
   id_dentista INT UNSIGNED NOT NULL,
   id_paciente INT UNSIGNED NOT NULL,
   CONSTRAINT fk_tratamento_dentista FOREIGN KEY (id_dentista) REFERENCES tb_dentista (id),
