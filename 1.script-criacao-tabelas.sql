@@ -24,6 +24,8 @@ CREATE TABLE tb_consulta (
   descricao VARCHAR(300),
   preco DECIMAL(10,2) NOT NULL,
   dt_consulta DATETIME NOT NULL,
+  compareceu BOOLEAN NOT NULL,
+  status_pgto VARCHAR(50),
   id_dentista INT UNSIGNED NOT NULL,
   id_paciente INT UNSIGNED NOT NULL,
   CONSTRAINT fk_consulta_dentista FOREIGN KEY (id_dentista) REFERENCES tb_dentista (id),
