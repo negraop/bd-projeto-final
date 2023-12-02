@@ -16,9 +16,11 @@ INSERT INTO tb_consulta VALUES
 (null, 'Limpeza', 350.00, '2023-09-09 10:30', 1, 'PAGO', 2, 2),
 (null, 'Limpeza', 350.00, '2023-09-09 14:00', 0, 'NÃO COMPARECEU', 2, 3),
 (null, 'Extração/Cirurgia', 1000.00, '2023-09-11 08:00', 1, 'PAGO', 2, 4),
-(null, 'Restauração', 450.00, '2023-09-11 15:00', 1, 'AGUARDANDO', 2, 5),
+(null, 'Restauração', 450.00, '2023-09-11 15:00', 1, 'PAGO', 2, 5),
 (null, 'Limpeza', 350.00, '2023-09-16 09:00', 1, 'PAGO', 2, 1),
-(null, 'Limpeza', 350.00, '2023-09-16 10:30', 1, 'PAGO', 2, 2);
+(null, 'Limpeza', 350.00, '2023-09-16 10:30', 1, 'PAGO', 2, 2),
+(null, 'Restauração', 450.00, '2023-09-16 14:00', 1, 'PAGO', 2, 3)
+(null, 'Limpeza', 350.00, '2023-10-02 14:00', 1, 'PAGO', 2, 4)
 
 INSERT INTO tb_endereco VALUES
 (null, 'Rua', 'das Paineiras', 265, '', 'Jardim', 'Santo André', 'SP', 09156098, 2, null),

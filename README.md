@@ -23,7 +23,7 @@ Material;
 * Faturamento por paciente;
 * Faturamento por tratamento;
 * Faturamento por período (dia, semana, mês, ano);
-* Quantidade de clientes por período (dia, semana, mês);
+* Quantidade de pacientes por período (dia, semana, mês, ano);
 * Taxa de comparecimento por paciente;
 * Tratamento mais vendido;
 * Dia da semana com mais pacientes agendados;
