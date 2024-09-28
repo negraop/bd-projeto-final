@@ -1,6 +1,9 @@
 # Projeto de Banco de Dados
 
-### Prof. Isidro - 3Q.2023 - UFABC
+### Prof. Isidro - 2023.3 - UFABC
+
+![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
+
 <br>
 
 ## Especificação do Sistema
